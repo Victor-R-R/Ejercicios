@@ -9,6 +9,7 @@ def eliminar_espacios(texto):
     for caracter in texto:
         # verificando si encuentra espacios
         if caracter != " ":
+            # Concatenando los caracteres
             texto_sin_espacios += caracter
     # retornando el resultado
     return texto_sin_espacios
